@@ -51,6 +51,8 @@ function handleSubmit(){
   <button type="button" className="btn btn-link btn-floating mx-1"><i className="fab fa-google"></i></button>
   <button type="button" className="btn btn-link btn-floating mx-1"><i className="fab fa-twitter"></i></button>
   <button type="button" className="btn btn-link btn-floating mx-1"><i className="fab fa-github"></i></button>
+
+  {/* comments */}
   </div>
 </form>
           </div>
