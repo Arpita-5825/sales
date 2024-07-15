@@ -1,0 +1,186 @@
+body {
+  background-color: #fbfbfb;
+}
+
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 58px 0 0;
+  /* Height of navbar */
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  width: 240px;
+  z-index: 600;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+.sidebar .active {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* Scrollable contents if viewport is shorter than content. */
+}
+
+.mainpage .row,
+.mainpage .col-lg-3 {
+
+  border: 1px solid #b9b9b9;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+ text-align: center;
+}
+
+.mainpage h3 {
+  color: rgb(2, 12, 12);
+  font-family: Callibri;
+  
+}
+
+.mainpage span {
+  font-size: 35px;
+  text-align: center;
+  color: #0d6efd;
+}
+
+.mainpage i {
+  font-size: 35px;
+  color: #0d6efd;
+  padding-right: 10px;
+}
+
+h2 {
+
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: xx-large;
+  text-align: left;
+}
+
+
+/* products start */
+.modal h5 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.modal label {
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+
+.modal input,
+.modal option {
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid #ced4da;
+}
+
+.list-group-item i,
+.list-group-item span {
+  font-size: 18px;
+}
+
+.breadcrumb li {
+  font-size: 18px;
+}
+
+table .btn-primary {
+  background-color: #0d6efd !important;
+  width: 100px;
+}
+
+table .btn-danger {
+  background-color: #dc3545 !important;
+  width: 100px;
+}
+
+thead {
+  border-bottom: 1px solid black;
+}
+
+table th,
+table td {
+  padding: 10px;
+}
+
+/* product End */
+
+
+/* sales page start */
+
+.salespage .container{
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form input, form option{
+  margin-bottom: 20px;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid #ced4da;
+
+}
+
+/* sales expenses page start */
+.expense .row{
+  margin: 10px;
+}
+/* sales expenses page end */
+
+/* login start */
+.login{
+  background-image: url('../3607424.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.login h1 span{
+  color:#bcbcbc;
+}
+.login h1{
+  color: #ffffff;
+  font-size: 75px;
+}
+
+
+.login .row{
+  height: 100vh;
+}
+ 
+.login form{
+  background-color: #e8dfdf;
+  border-radius: 20px;
+  padding:50px 20px;
+  text-align: center;
+}
+/* login end */
+
